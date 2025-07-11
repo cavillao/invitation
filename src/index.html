@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitation</title>
+    <link rel="stylesheet" href="./main.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Meow+Script&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <h1 class="card-title">Invitación para mi bella dama</h1>
+      <div class="card" id="flipCard">
+        <div class="card-front">
+          <h2 class="front-title">Hola AMORCITOOOOOOO</h2>
+          <p class="front-text">
+            Tengo una invitación para ti!!!<br />
+            La verdad me daba pena decirtelo de frente, por eso lo hago por
+            aquí.
+          </p>
+          <p class="front-text">Aceptas?</p>
+          <img
+            src="../assets/perrito-elegante.webp"
+            alt="perrito-elegante"
+            class="card-front-sticker"
+          />
+        </div>
+        <div class="card-back">
+          <h2 class="back-title">INCREÍBLE!!! Muchas gracias por aceptar</h2>
+          <p>
+            Ahora, sin más preámbulo.<br />
+            Estos son los datos del evento:
+          </p>
+          <p class="invitation-data">Lugar: <span>Carmen Medellín.</span></p>
+          <p class="invitation-data">Fecha: <span>11 de Julio.</span></p>
+          <p class="invitation-data">
+            Hora: <span>9 p.m</span><br />
+            <span class="non-highlight"
+              >(Un poquito antes para que no nos quiten la reserva).</span
+            >
+          </p>
+          <p>No te lo pierda, te espero!</p>
+          <img
+            src="https://media1.tenor.com/m/j2nm-x4S08MAAAAC/african-kid-africa.gif"
+            alt="guiño"
+            class="card-back-sticker"
+          />
+        </div>
+      </div>
+      <div class="button-container">
+        <button onclick="flipCard()">SI</button>
+        <button onclick="flipCard()">SI X2</button>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
